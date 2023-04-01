@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: rgb(255,233,132);
+background: linear-gradient(90deg, rgba(255,233,132,1) 0%, rgba(207,255,182,1) 57%, rgba(27,255,41,1) 100%);
+font-family: 'Mont-Heavy';
+}
+.imgop{
+    width: 50%;
+    height: 60%;
+}
+#heading{
+    color:darkgreen ;
+}
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url(Mont-HeavyDEMO.otf);
+}
+.test_image_and_result{
+    width: 650px;
+    height: 650px;
+    text-align:left;
+    background: rgb(255,89,0);
+background: linear-gradient(90deg, rgba(255,89,0,1) 0%, rgba(255,188,0,1) 57%, rgba(255,85,0,1) 100%);
+    line-height: 200px;
+    border-radius: 20px;  
+}
+.test_image_and_result img{
+    height: 350px;
+    width: 200px;
+    padding-bottom: 100px;
+
+}
+.test_image_and_result h5{
+    color: yellow;
+}
+b {
+    color: chartreuse;
+}
+ol{
+    color: aqua;
+}
+.test_image_and_result{
+    animation-name: example;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:2px 2px 58px rgb(255, 255, 0)};
+}
